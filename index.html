@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="title">
+        <h1>NEELA KIRAN PAUL</h1>
+      </div>
+      <div class="link">
+        <button onclick="srollhome()">HOME</button>
+        <button onclick="srollabout()">ABOUT</button>
+        <button onclick="srollproject()">PROJECTS</button>
+        <button onclick="srollcont()">CONTACT</button>
+      </div>
+    </nav>
+  </header>
+  <section id="home" class="home">
+    <div class="intro">
+      <div>
+        <h3>Hello</h3>
+        <h2>I am Kiran Paul, a</h2>
+        <h1>CS Student</h1>
+        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nostrum sunt dolorem enim sed libero totam pariatur officia temporibus aspernatur minus, deleniti culpa, nobis obcaecati in sit natus fugiat. Ab mollitia explicabo, iure dignissimos laborum laudantium id odio. Suscipit eos blanditiis maxime ea beatae aspernatur nostrum consequatur tempora quidem voluptatibus.</article>
+      </div><br>
+      <a onclick="srollabout()">Explore -></a>
+    </div>
+    <div class="img">
+      <diV>
+        <img src="paul.jpg" alt="Studentimage">
+      </diV>
+    </div>
+  </section>
+  <section id="about" class="about">
+    <div class="head">
+      <h1>About Me:</h1><br>
+      <article>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, consequuntur iste placeat qui odio earum, officia nihil cupiditate quo ad maxime dignissimos harum voluptatibus, animi deleniti vel quidem perspiciatis iusto ex! Suscipit culpa adipisci quidem unde vero iure eveniet vitae.</article>
+    </div>
+    <div class="info">
+      <div class="se">
+        <h4>Secondary Education:</h4><br>
+        <div>
+          <ul>
+            <li>2018-2019</li>
+            <li>Bhashyam High School</li>
+            <li>Guntur</li>
+          </ul>
+        </div>
+      </div>
+      <div class="se">
+        <h4>Higher Secondary Education:</h4><br>
+        <div>
+          <ul>
+            <li>2019-2021</li>
+            <li>Narayana Junior College</li>
+            <li>Vijayawada</li>
+          </ul>
+        </div>
+      </div>
+      <div class="se">
+        <h4>Graduation:</h4><br>
+        <div>
+          <ul>
+            <li>2021-2025</li>
+            <li>Vignan University</li>
+            <li>Vadlamudi</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="projects" class="projects">
+    <div class="heading">
+      <h1>Projects:</h1>
+    </div>
+    <div class="content">
+      <div class="photo">
+        <img src="p1.png" alt="project1">
+      </div>
+      <div class="explain">
+        <div>
+          <h4>Online Restaurant Application (Web Project)</h4><br>
+          <article>Developed a web application for restaurant reservations and food ordering, featuring user-friendly interfaces for 
+            customers and administrators. Integrated real-time menu updates, table bookings, and order tracking.</article>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="p2.png" alt="project2">
+      </div>
+      <div class="explain">
+        <div>
+          <h4>Smart Door Locking System (IDP Project)</h4><br>
+          <article>Developed a secure and efficient door locking system utilizing fingerprint recognition technology. Implemented 
+            hardware and software integration to ensure reliable access control. Enhanced security by eliminating the need for 
+            physical keys</article>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="p3.png" alt="project3">
+      </div>
+      <div class="explain">
+        <div>
+          <h4>Social Media Sentimental Analysis (DMT Project)</h4><br>
+          <article>Developed a machine learning model to analyze and classify sentiments in social media posts. Utilized natural language 
+            processing techniques to identify patterns and trends in user emotions. Implemented the solution using Python and 
+            various data analysis libraries.
+            </article>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact">
+    <div class="he">
+      <h1>Wanna contact me:</h1>
+    </div>
+    <div class="form">
+      <div class="hea">
+        <center><h4>Please Enter Your Details Here</h4></center>
+      </div>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Enter Your Name" id="name"><br>
+        <label for="mail">Email:</label>
+        <input type="email" placeholder="Enter Your Email" id="mail"><br>
+        <label>Message:</label>
+        <textarea placeholder="Enter The Message" id="msg"></textarea><br>
+        <input type="button" value="submit" Onclick="document.getElementById('demo').style.display='block'">
+        <center><p id="demo">Thank You For Entering Your Details</p></center>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <p>© All Copyrights Are Resevered To Syed Masood Mohiddin</p>
+  </footer>
+</body>
+</html>
